@@ -6,6 +6,8 @@
     box-sizing:border-box;
 }
 
+/* NAVIGATION BAR STYLING */
+
 .nav-wrapper { 
     width:100%;
    background:white;
@@ -82,5 +84,13 @@ body {
 .authorize-button p { 
     color:white;
     margin-right:10px;
+}
+
+/* HERO SECTION */
+
+.hero-wrapper { 
+   width:100%;
+   padding:64px 80px 48px 80px; 
+   
 }
 
