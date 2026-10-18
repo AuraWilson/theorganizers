@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * { 
     margin: 0;
     padding: 0;
@@ -6,5 +8,79 @@
 
 .nav-wrapper { 
     width:100%;
-   
+   background:white;
+
 }
+
+body { 
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-container { 
+    padding:20px 80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.left-side-nav-container { 
+    display:flex;
+    align-items:center;
+}
+
+.left-side-nav-container h1 { 
+    font-size:20px;
+    color:black;
+}
+
+#tech-hub-logo { 
+    margin-right:10px;
+}
+
+#p-university-name { 
+    font-size:10px;
+    color:#637083;
+}
+
+.middle-side-nav-container ul { 
+    display:flex;
+
+}
+
+.middle-side-nav-container ul li { 
+    margin-right:20px;
+    list-style:none;
+}
+
+.middle-side-nav-container ul li a { 
+    text-decoration:none;
+    color:black;
+}
+
+.right-side-nav-container { 
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.right-side-nav-container .concept p { 
+    font-size:10px;
+    color:#637083;
+}
+
+.authorize-button { 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:6px;
+    padding:15px 22px;
+    background:#102747;
+    cursor:pointer;
+
+}
+
+.authorize-button p { 
+    color:white;
+    margin-right:10px;
+}
+
